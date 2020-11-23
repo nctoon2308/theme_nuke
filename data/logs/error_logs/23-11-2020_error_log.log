@@ -1,0 +1,10 @@
+[Mon, 23 Nov 2020 08:59:27 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1932 Table 'nukeviet4.nv4_vi_location_district' doesn't exist in engine in C:\xampp\htdocs\nukeviet1\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet1\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nukeviet1\includes\core\dump.php(111): NukeViet\Core\Database->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\nukeviet1\includes\cronjobs\dump_autobackup.php(63): nv_dump_save(Array)
+#3 C:\xampp\htdocs\nukeviet1\includes\core\cronjobs.php(76): cron_dump_autobackup()
+#4 C:\xampp\htdocs\nukeviet1\includes\mainfile.php(339): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nukeviet1\index.php(20): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]

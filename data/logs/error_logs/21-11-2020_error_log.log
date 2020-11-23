@@ -1,0 +1,30 @@
+[Sat, 21 Nov 2020 08:42:50 +0700] [localhost] [127.0.0.1] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1932 Table 'nukeviet4.nv4_vi_location_district' doesn't exist in engine in C:\xampp\htdocs\nukeviet1\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet1\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nukeviet1\includes\core\dump.php(111): NukeViet\Core\Database->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\nukeviet1\includes\cronjobs\dump_autobackup.php(63): nv_dump_save(Array)
+#3 C:\xampp\htdocs\nukeviet1\includes\core\cronjobs.php(76): cron_dump_autobackup()
+#4 C:\xampp\htdocs\nukeviet1\includes\mainfile.php(339): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nukeviet1\index.php(20): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]
+[Sat, 21 Nov 2020 08:43:34 +0700] [localhost] [::1] [Warning(2): rename(C:/xampp/htdocs/nukeviet1/data/tmp/8635c130c4096f8675b468c766add998/modules/shops/admin/.htaccess,C:/xampp/htdocs/nukeviet1/modules/shops/admin/.htaccess): The system cannot find the file specified. (code: 2)] [FILE: /admin/extensions/upload.php] [LINE: 274]
+[Sat, 21 Nov 2020 08:43:54 +0700] [localhost] [::1] [Run-time notices(8192): The each() function is deprecated. This message will be suppressed on further calls] [FILE: /modules/shops/admin/items.php] [LINE: 388]
+[Sat, 21 Nov 2020 09:52:22 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1932 Table 'nukeviet4.nv4_vi_location_district' doesn't exist in engine in C:\xampp\htdocs\nukeviet1\vendor\vinades\nukeviet\Core\Database.php:495
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet1\vendor\vinades\nukeviet\Core\Database.php(495): PDO->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\nukeviet1\includes\core\dump.php(111): NukeViet\Core\Database->query('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\nukeviet1\includes\cronjobs\dump_autobackup.php(63): nv_dump_save(Array)
+#3 C:\xampp\htdocs\nukeviet1\includes\core\cronjobs.php(76): cron_dump_autobackup()
+#4 C:\xampp\htdocs\nukeviet1\includes\mainfile.php(339): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nukeviet1\index.php(20): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 495]
+[Sat, 21 Nov 2020 10:54:59 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to undefined function nv_test() in C:\xampp\htdocs\nukeviet1\themes\default\blocks\global.test.php:250
+Stack trace:
+#0 C:\xampp\htdocs\nukeviet1\includes\core\user_functions.php(182): include()
+#1 C:\xampp\htdocs\nukeviet1\themes\default\theme.php(340): nv_blocks_content('<!DOCTYPE html>...')
+#2 C:\xampp\htdocs\nukeviet1\modules\news\funcs\main.php(339): nv_site_theme('<div class="new...')
+#3 C:\xampp\htdocs\nukeviet1\index.php(343): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown] [FILE: /themes/default/blocks/global.test.php] [LINE: 250]
